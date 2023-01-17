@@ -17,6 +17,8 @@ https://enzogennarii.github.io/
 
 ## Sobre Mim
 
+Me chamo Enzo Cavalcanti Gennari, tenho 20 anos e sou de Jundiaí, SP.
+
 ## Minhas Experiências
 
 Minha primeira experiência em programação foi em um evento da RocketSeat, onde aprendi o básico do básico de HTML e CSS, e foi onde me despertou meu interesse na área. Algumas semanas depois, me matriculei no curso de Desenvolvimento Web da Trybe, onde comecei a estudar em janeiro de 2023. E aí, iniciei de fato, um Portfólio.

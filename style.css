@@ -2,9 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+/* 
   outline: 1px solid red;
-  outline-offset: -1px;
+  outline-offset: -1px; */
 
   font-family: 'Ubuntu', sans-serif;
 }
@@ -32,7 +32,7 @@ header {
   display: flex;
 }
 
-.nav-list li {
+.nav-list li + li {
   margin-left: 32px;
 }
 
@@ -42,22 +42,31 @@ header {
   background-color: rgb(52 50 51); 
   padding: 7px;
   border-radius: 12px;
+
+  text-decoration: none;
 }
 
 main {
-  height: 200vh;
+  height: 400vh;
+}
+
+#home-page, #skills, #about-me, #experiences, #projects, #contact {
+  height: 80vh;
 }
 
 #home-page {
-  height: 94vh;
-
   text-align: left;
+  align-items: center;
 
-  padding: 18vh;
+  width: 50%;
+  margin: auto;
+  padding: 15% 0;
 }
 
 #home-page h1 {
   margin-bottom: 5vh;
+
+  line-height: 40px;
 }
 
 #name {
@@ -68,6 +77,10 @@ main {
   font-size: 20px;
 }
 
+.btns-home-page {
+  text-align: center;
+}
+
 button {
   background-color: rgb(52 50 51);
   color: #e5e7eb;
@@ -75,7 +88,29 @@ button {
   font-size: 20px;
   font-weight: bold;
 
-  padding: 7px;
+  padding: 10px;
+  border: 0px solid rgb(52 50 51);
   border-radius: 40px;
   margin-top: 15vh;
+}
+
+#btn-linkedin {
+  margin-right: 20px;
+}
+
+button + button {
+  margin-left: 20px;
+}
+
+#skills {
+  align-items: center;
+  text-align: center;
+
+  width: fit-content;
+
+  margin: 0 auto;
+}
+
+#skills ul {
+  list-style: none;
 }
